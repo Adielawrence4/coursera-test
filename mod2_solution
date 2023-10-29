@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	h1{
+		text-align: center;
+	}
+	section{
+		background-color: #00ff7f;
+		width: 350px;
+		height: 300px;
+		border: 2px solid black;
+		float: left;
+		margin-left: 10px;
+		box-sizing: border-box;
+		margin-bottom: 15px;
+		margin-top: 15px;
+
+	}
+	p{
+		background-color: #4169E1;
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 75px;
+		width: 100px;
+		float: right;
+		border: 2px solid black;
+		margin-left: 350px;
+
+	}
+	@media (min-width: 1200px) {
+		section{
+			width: 350px;
+				}
+	}
+	@media (min-width: 992px) and (max-width: 1199px) {
+		section{width: 300px;
+				}
+		
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		section{width: 350px;
+				}
+	}
+
+</style>
+<body>
+	<h1>ASSIGNMENT</h1>
+	<section>
+		<p>Heart</p>
+		Its function is to restrict excessive movements of the heart as a whole
+		and to serve as a lubricated container in which the different parts of the heart can contract.
+	</section>
+	<section>
+		<p>Pericardial</p>
+		Excessfluid is termed a pericardial effusion.If the volume is sufficiently large, this can reduce ventricular termed cardiac tamponade. Insevere cases, this can cause heart failure
+	</section>
+	<section>
+		<p>Valves</p>
+		Cardiac enlargement or chronic pericardial effusions, both of which develop slowly, will stretch the fibrous pericardium.
+	</section>
+</body>
+</html>
